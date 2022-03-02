@@ -1,0 +1,43 @@
+#corp
+{
+    
+}
+#menu 
+{
+    background-color: dodgerblue;
+    border: 2px dodgerblue solid;
+    padding-left: 70%;
+    width: 100%;
+    margin-bottom: 2%;
+    height: 50px;
+}
+nav ul li a
+{
+    color: white;
+}
+#sara
+{
+    font-size: 150%;
+}
+span
+{
+    color: dodgerblue;
+}
+img
+{
+    width: 80px;
+    float: right;
+    margin-left: 10%;
+}
+#p2
+{
+    margin-left: 15%;
+    padding-left: 15%;
+}
+p
+{
+    display: inline-block;
+    width: 40%;
+ 
+    
+}

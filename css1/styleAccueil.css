@@ -1,0 +1,166 @@
+@media screen and (max-width: 680px)
+{
+	body
+	{
+		height:100%;
+		width:100%;
+		background:silver;
+		background-size:cover;
+		font-family:sans-serif;
+		display:inline-block;
+	}
+
+	header
+	{
+		height:300px;
+		width:100%;
+		border:2px solid black;
+		color:white;
+		background:dodgerblue;
+		display:inline-block;
+	}
+	nav
+	{
+		display: inline-block;
+		width: 100%;
+		background-color: white;
+		display:inline-block;
+	}
+	nav ul
+	{
+		list-style: none;
+		background-color: white;
+		width: 100%;
+		display:inline-block;
+	}
+	nav ul li
+	{
+		display:inline-block;
+		margin: auto;
+		/* width: 8%; */
+		background-color: lightseagreen;
+		font-weight: bold;
+		
+		padding-left: 2%;
+		/* float:right; */
+	}
+	nav ul li a
+	{
+		text-decoration: none;
+		color: black;
+	}
+
+
+}
+
+@media screen and (min-width: 681px) and (max-width: 1279px)
+{
+	body
+	{
+		height:100%;
+		width:100%;
+		background:yellow;
+		background-size:cover;
+		font-family:sans-serif;
+		display:inline-block;
+	}
+
+	header
+	{
+		height:300px;
+		width:100%;
+		border:2px solid black;
+		color:white;
+		background:dodgerblue;
+		display:inline-block;
+	}
+	nav
+	{
+		display: inline-block;
+		width: 100%;
+		background-color: white;
+		display:inline-block;
+	}
+	nav ul
+	{
+		list-style: none;
+		background-color: white;
+		width: 97%;
+		display:inline-block;
+	}
+	nav ul li
+	{
+		display:inline-block;
+		margin: auto;
+		width: 8%;
+		background-color: lightseagreen;
+		font-weight: bold;
+		font-size: 100%;
+		padding-left: 2%;
+		float:right;
+	   display:inline-block;
+	}
+	nav ul li a
+	{
+		text-decoration: none;
+		color: black;
+	}
+
+
+}
+
+@media screen and (min-width: 1280px)
+{
+	body
+	{
+		height:100%;
+		width:100%;
+		background:red;
+		background-size:cover;
+		font-family:sans-serif;
+		display:inline-block;
+	}
+
+	header
+	{
+		height:300px;
+		width:100%;
+		border:2px solid black;
+		color:white;
+		background:dodgerblue;
+		display:inline-block;
+	}
+	nav
+	{
+		display: inline-block;
+		width: 100%;
+		background-color: white;
+		display:inline-block;
+	}
+	nav ul
+	{
+		list-style: none;
+		background-color: white;
+		width: 97%;
+		display:inline-block;
+	}
+	nav ul li
+	{
+		display:inline-block;
+		margin: auto;
+		width: 8%;
+		background-color: lightseagreen;
+		font-weight: bold;
+		font-size: 100%;
+		padding-left: 2%;
+		float:right;
+	   display:inline-block;
+	}
+	nav ul li a
+	{
+		text-decoration: none;
+		color: black;
+	}
+
+
+}

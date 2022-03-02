@@ -1,0 +1,143 @@
+body
+{
+
+  /* background:#f8f8f8;*/
+  /* margin-top: 4% !important;*/
+  overflow-x: hidden;
+
+}
+h2
+{
+       color:black;
+
+}
+@keyframes flash
+{
+    0%{
+        color:black;
+        text-shadow: none;
+    }
+    80%{
+        color:black;
+        text-shadow: none;
+    }
+    20%
+    {
+        color: black;
+        text-shadow : 0 0 7px cornflowerblue, 0 0 50px darkcyan;
+
+    }
+
+}
+
+
+.register-right
+{
+   border:none;
+   margin-top: 15%;
+   background: white;
+ /*background:rgb(218, 215, 215);
+ /* darkcyan#f8f8f8;
+ /*background-image: linear-gradient( to right,#2f3540,cornflowerblue);*/
+   padding: 5%;
+   margin-bottom: 3%;
+
+   border-top-left-radius: 2%;
+   border-bottom-left-radius: 2%;
+   border-top-right-radius: 2%;
+   border-bottom-right-radius: 2%;
+
+   
+}
+.register-right h2
+{
+   text-align:center;
+   margin-bottom:2%;
+   color:black;
+  /* color: #555;*/
+}
+.register-form
+{
+    padding:15px;
+    
+}
+
+.register-right .btn-primary
+{
+    float:right;
+    border-radius: 1.5rem;
+    border:none;
+    background: cornflowerblue;
+    font-weight: 600;
+    color:white;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.register-right .btn-primary:hover
+{
+    background:#ff5722;
+}
+.contenu
+{
+margin: auto;
+/*background: url('imgg.png') no-repeat;
+    background-size: cover;*/
+    background-color:white; /*darkcyan;*/
+    opacity: 0.9;
+margin-top: -2%;
+margin-right: 60px;
+margin-left: 60px;
+width: 93%;
+height:836.5px;
+}
+
+
+.register-left
+{
+    text-align: center;
+    color:white;
+    padding:30px;
+    right:30%;
+    margin-top:15%;
+}
+.register-left p
+{
+   padding :20px 20px 0; 
+   color: black;
+   font-size: 120%;
+}
+.register-left h3
+{
+   padding :20px 20px 0; 
+   color: black;
+   font-size: 120%;
+}
+.register-left img
+{
+    margin-top:60px;
+    margin-bottom:18px;
+    width:80px;
+    animation: mover 1s infinite alternate;
+}
+.register-left .btn-primary
+{
+    border-radius: 1.5rem;
+    border:none;
+    background: #f8f8f8;
+    font-weight: 600;
+    color:#555;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+.register-left .btn-primary:hover
+{
+    background: black;
+}
+@keyframes mover
+{
+    0%{transform: translateY();}
+    0%{transform: translateY(-20px);}
+}

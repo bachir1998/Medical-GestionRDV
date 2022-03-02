@@ -1,0 +1,72 @@
+img{
+    width : 200px;
+    height : 200px;
+    border : 2px solid black;
+    border-radius: 20%;
+    margin-top: 3%;
+}
+nav{
+    margin-left: 7%;
+    margin-right : 7%;
+}
+.pre{
+	display : inline-block;
+	vertical-align  :top;
+	margin-left : 10%;
+	margin-right : 10%;
+	/* vertical-align : left; */
+}
+.infor{
+	align : left;
+}
+.pr1{
+	/* float : left; */
+	
+}
+.info{
+	font-weight : bold;
+	/* background : yellow; */
+	text-align: justify;
+	font-family : italic;
+	font-size : 25px;
+}
+#information{
+	background : #FFFACD ;
+	/* padding-top : 3%; */
+}
+.pr{
+	float : right;
+}
+.lui{
+    /* margin-top : 1%; */
+    text-align: center;
+    border-radius: 12%;
+}
+
+#name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;   
+    cursor: inherit;
+    display: block;
+}
+
+
+
+
