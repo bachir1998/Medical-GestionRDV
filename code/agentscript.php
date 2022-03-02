@@ -15,11 +15,11 @@
         $row = $stmt -> fetch();
         while($row)
         {
-            <input type="submit" value="">
+            /*<input type="submit" value="">*/
             
             echo '<article>
                     <form action="agent.php" method="post">
-                        <input type="hidden" name="conf" value='.$row[conf].'>
+                        <input type="hidden" name="conf" value='.$row['conf'].'>
                     </form>
             </article>';
             $row = $stmt -> fetch();

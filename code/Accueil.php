@@ -15,7 +15,7 @@
     </head>
     <body>
 				<nav class="navbar  navbar-default navbar-fixed-top" >
-                    <img style="float: left;width : 40px;height : 40px;margin:0.5%; border : 50%;" src='im_header.PNG' alt="logo"/>
+                    <img style="float: left;width : 40px;height : 40px;margin:0.5%; border : 50%;" src='../image/logo.png' alt="logo"/>
                     <div class="container"  style="margin-right: -18%;margin-top:0%;font-size:120% ; color : white">
                             
                         <ul class="nav navbar-nav">
